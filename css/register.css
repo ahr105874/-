@@ -1,0 +1,121 @@
+.w{
+    margin: 0 auto;
+    width: 1200px;
+}
+.head{
+    margin-top:17px ;
+    height: 66px;
+    border-bottom: 2px solid skyblue;
+}
+.reg{
+    margin-top: 20px;
+    height: 521px;
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+}
+.reg_hd{
+    padding: 0 10px;
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+.reg_hd h4{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.reg_hd p{
+    float: right;
+    font-size: 14px;
+}
+.reg_hd p a{
+    color:skyblue;
+}
+.reg_bd{
+    margin-top: 50px;
+    margin-left: 312px;
+    width: 545px;
+    height: 370px;
+}
+
+.reg_bd li{
+    margin-bottom: 20px;
+    
+}
+.reg_bd li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+.reg_bd  li .ask{
+    width: 242px;
+    height: 36px;
+    border: 1px solid #999999;
+}
+.reg_bd li span{
+    color: tomato;
+}
+.erro{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url(../img/error.png);
+    vertical-align: middle;
+}
+.safe{
+    padding-left: 166px;
+}
+.safe em{
+    display: inline-block;
+    margin-right: 2px;
+    padding: 0 10px;
+    color: white;
+}
+.safe em:first-of-type{
+    margin-left: 10px;
+}
+.ruo{
+    background-color: red;
+}
+.zhong{
+    background-color: green;
+}
+.qiang{
+    background-color: yellow;
+}
+
+.agree{
+    padding-left: 100px;
+}
+.agree input{
+    margin-right:13px;
+    vertical-align: middle;
+}
+.agree a{
+    color: blue;
+}
+
+.sub{
+    padding-left: 96px;
+   
+    
+}
+.sub input{
+    padding: 10px 72px;
+    margin-top: 20px;
+    color: white;
+    background-color: skyblue;
+}
+
+footer{
+    text-align: center;
+}
+footer a{
+    margin: 0 15px;
+}
+footer p{
+    margin-top: 15px;
+}

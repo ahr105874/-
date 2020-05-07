@@ -1,0 +1,255 @@
+/* 版心 */
+.w{
+    margin: 0 auto;
+    width: 1200px;
+}
+/* 声明字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?573c7x');
+    src:  url('../fonts/icomoon.eot?573c7x#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?573c7x') format('truetype'),
+      url('../fonts/icomoon.woff?573c7x') format('woff'),
+      url('../fonts/icomoon.svg?573c7x#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 右浮动 */
+.fr{
+    float: right;
+}
+
+
+/* 设置字体为天空蓝 */
+.color_blue{
+    color: skyblue;
+}
+
+/* 顶部shortcut start */
+.shortcut{
+    height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut li{
+    height: 31px;
+    line-height: 31px;
+    float: left;
+}
+/* 左边 */
+.shortcut .fl a{
+    margin-left: 5px;
+} 
+/* 右边 */
+.shortcut .fr li:nth-child(2n){
+    margin: 9px 15px 0;
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+}
+.arrow::after{
+    content: '\e905';
+    font-family: 'icomoon';
+}
+/* 顶部shortcut end */
+
+/* header start */
+.head{
+    position: relative;
+    margin-top: 26px ;
+    height: 55px;
+}
+/* logo */
+.logo{
+    width: 177px;
+    height:55px;
+    background-image: url(../img/logl.png);
+    text-indent: -9999999px;
+    overflow: hidden;
+}
+/* 搜索框与按钮 */
+.search{
+    position: absolute;
+    top: 0;
+    left: 347px;
+}
+.search input{
+    padding-left:10px ;
+    width: 457px;
+    height: 36px;
+    border: 1px solid skyblue;
+}
+.search input::placeholder{
+    color: #c1c1c1;
+}
+.search button{
+    width: 83px ;
+    height: 36px;
+    background-color: skyblue;
+    color: white;
+}
+/* 热词 */
+.hotwords{
+    position: absolute;
+    top: 43px;
+    left: 347px;
+}
+.hotwords a{
+    margin: 0 10px;
+}
+/* 购物车 */
+.shopcar{
+    position: absolute;
+    top: 0;
+    right: 63px;
+    width: 141px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.shopcar a{
+    line-height: 35px;
+}  
+.shopcar a::before{
+    margin-right:5px ;
+    content: '\e904';
+    font-family: 'icomoon';
+    color: skyblue;
+} 
+.shopcar a::after{
+    content: '\e902';
+    font-family: 'icomoon';
+}
+/* header end */
+/* nav start */
+.nav{
+    margin-top:25px ;
+    height: 47px;
+    border-bottom: 2px solid skyblue;
+}
+/* 左导航栏 */
+.navitems{
+    width: 209px;
+    background-color: skyblue;
+}
+.ni-hd{
+    height: 46px ;
+    line-height: 46px;
+    color: white;
+    font-size: 16px;
+    background-color: skyblue;
+    text-align: center;
+}
+.ni-bd{
+    padding:8px 10px 0;
+    width: 100%;
+    font-size:14px;
+    /* display: none; */
+}
+.ni-bd li{
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    color: white;
+}
+.ni-bd li a{
+    font-size: 14px;
+    color: white;
+}
+.ni-bd li:hover{
+    background-color: #fff;
+}
+.ni-bd li:hover a{
+    color: black;
+}
+.ni-bd li::after {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    content: '\e902';
+    font-family: 'icomoon';
+    color: white;
+}
+/* 右导航栏 */
+.navcontent{
+    margin-left: 10px;
+}
+.navcontent li{
+    float: left;
+}
+.navcontent li a{
+    height: 45px;
+    line-height: 45px;
+    padding: 15px 30px;
+}
+/* nav end  */
+/* footer start */
+.foot{
+    padding-top: 30px;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+.service{
+    height: 80px;
+    border-bottom: 1px solid #ededed;
+}
+.service li{
+    float: left;
+    padding-left: 30px;
+    height: 50px;
+    width: 210px;
+
+}
+.service h5{
+    float: left;
+    margin-right: 9px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.sertext h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sertext p{
+    font-size: 12px;
+}
+.one{
+    background: url(../img/icons.png) -4px 0;
+}
+.ser_mes{
+    height: 184px;
+    border-bottom: 1px solid #ededed;
+}
+.ser_mes dl{
+    float: left;
+    margin: 0 50px;
+}
+.ser_mes dt{
+    margin-bottom: 13px;
+    font-size: 16px;
+}
+.center{
+    width: 94px;
+    text-align: center;
+}
+.ser_adv{
+    margin-top: 26px;
+    text-align: center;
+}
+.ser_adv li{
+    float: left;
+    
+}
+.ser_adv  a{
+    margin: 0 17px;
+}
+.ser_adv p{
+    margin-top: 14px;
+}
+/* footer end */

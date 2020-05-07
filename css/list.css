@@ -1,0 +1,93 @@
+/* 左导航栏 */
+.sk_l{
+    float: left;
+    width: 359px;
+    height: 44px;
+
+}
+.sk_l li{
+    float: left;   
+}
+.sk_l li a{
+    padding: 0 25px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* 右侧导航栏 */
+.sk_r{
+    float: left;
+    margin-left: 10px;
+}
+.sk_r li{
+    float: left;
+}
+.sk_r li a{
+    padding: 17px 23px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+}
+.sk_r li:last-child a::after{
+    content: '\e905';
+    font-family: 'icomoon';
+}
+/* 列表主体 */
+
+.list_hd{
+    margin-bottom: 24px;
+    height: 120px;
+
+}
+
+.list_bd li{
+    float: left;
+    padding: 0 15px;
+    width: 291px;
+    height: 462px;
+    border: 1px solid transparent;
+}
+.list_bd li:hover{
+    border: 1px solid skyblue;
+}
+.list_bd li img{
+    width: 268px;
+}
+.now{
+    font-size: 22px;
+    color: red;
+    font-weight: 700;
+}
+.ago{
+    text-decoration: line-through;
+}
+.amount{
+    margin-top: 10px;
+    height: 12px;
+    line-height: 12px;
+}
+.jindu{
+    float: left;
+    margin: 0 5px;
+    width: 132px;
+    height: 12px;
+    border: 1px solid skyblue;
+    border-radius: 6px;
+}
+.box{
+    height: 11px;
+    width: 80%;
+    background-color: skyblue;
+    border-radius: 6px;
+}
+.list_bd li .buy{
+    display: block;
+    margin-top: 14px;
+    padding: 17px 43px;
+    /* width: 290px;
+    height: 51px; */
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}

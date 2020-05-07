@@ -1,0 +1,261 @@
+/* 图片+快报 */
+.main{
+    margin: 13px 0 0 219px;
+    width: 981px;
+    height: 456px;
+}
+.focus{
+    width: 722px;
+    height: 456px;
+}
+.focus video {
+    width: 722px;
+    height: 456px;
+    border: 0;
+}
+.newsflash{
+    width: 251px;
+    height: 455px;
+}
+.news{
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.newshd{
+    padding: 0 17px;
+    line-height: 32px;
+    height: 32px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.newshd h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.newshd a::after{
+    margin-left:10px ;
+    content: '\e902';
+    font-family:'icomoon' ;
+}
+
+.newsbd ul{
+    margin-top: 13px;
+}
+.newsbd ul li{
+    margin-left:15px ;
+    height: 24px;
+}
+/* 生活服务 */
+.lifeser{
+    margin-bottom: 5px;
+    height: 210px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeser ul{
+    width: 252px;
+}
+.lifeser li{
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeser li i{
+    display: inline-block;
+    margin-top: 13px;
+    width: 24px;
+    height: 24px;
+    background:url(../img/icons.png) -4px -300px;
+}
+/* 推荐 */
+.recom{
+    margin-top: 10px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+}
+.recom_bd{
+    float: left;
+}
+.recom_bd li{
+    float: left;
+    margin-left: 13px;
+    width: 235px;
+}
+.recom_bd li img{
+    margin-top: 10px;
+    width: 235px;
+    height: 144px;
+    border-right: 1px solid #dddddd;
+}
+.recom_bd li:last-child img{
+    border: 0;
+}
+/* 猜你喜欢 */
+.like{
+    margin-top: 30px;
+    height: 262px;
+    
+}
+.like_hd{
+    border-bottom: 1px solid #ededed;
+    height: 30px;
+    line-height: 30px;
+}
+.like h4{
+    float: left;
+    height:30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.like_hd a{
+    float: right;
+}
+.like_hd a::after{
+    margin-left: 10px;
+    content: '\e907';
+    font-family:'icomoon' ;
+}
+.like_bd{
+    height: 233px;
+    border: 1px solid #ededed;
+    /* overflow: hidden; */
+}
+.like_bd ul{
+    width: 1212px;
+}
+.like_bd li{
+    position: relative;
+    float: left;
+   
+    width: 202px;
+    height: 233px;
+}
+.like_bd li:nth-child(-n+5)::after{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+}
+.like_bd li a p{
+    margin-top: 30px;
+}
+.like_bd li a p,
+.like_bd li a span{
+    margin-left: 35px;
+    text-align: left;
+}
+.like_bd li a span{
+    color: aqua;
+    font-size: 16px;
+}
+/* 盖楼 */
+.floor{
+    margin-top: 30px;
+    height: 390px;
+}
+.floor_hd{
+    height: 30px;
+    border-bottom: 2px solid skyblue;
+    
+}
+.floor_hd h4{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.floor_hd ul{
+    float: right;
+}
+.floor_hd ul li{
+    float: left;
+}
+.floor_hd ul li a{
+    padding:  0 10px;
+} 
+.floor_bd{
+    height: 361px;
+    overflow: hidden;
+}
+.col_210{
+    /* padding: 0 14px; */
+    width: 210px;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+.col_210 li{
+    float: left; 
+    text-align: center;
+}
+.col_210 li a{
+    display: block;
+    margin-left: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 19px;
+    border-bottom: 1px solid #ededed;
+
+}
+.col_329{
+    position:relative;
+    width: 329px;
+}
+.col_329 img{
+    width: 329px;
+    height: 361px;
+}
+.col_329 ul{
+    position: absolute;
+    bottom: 16px;
+    width: 66px;
+    left: 50%;
+    margin-left: -33px;
+}
+.col_329 ul li{  
+    float: left;
+    margin-left:10px ;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #3e3e3e;
+}
+.col_329 ul .current{
+    background-color: #fff;
+}
+.col_219{
+    width: 219px;
+}
+.col_219 img{
+    width: 219px;
+    height: 180px;
+}
+.col_222{
+    width: 222px;
+    border-right: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+.col_222 img{
+    width: 222px;
+    height: 361px;
+}
+.floor_foot{
+    height: 65px;
+    background-color: #f7f7f7;
+}
+.floor_foot a{
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 65px;
+    border-right:1px dotted #ccc;
+}
